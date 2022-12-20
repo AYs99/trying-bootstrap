@@ -1,0 +1,53 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card{
+    max-width: 18rem;
+    border: none;
+    border-radius: 2%;
+}
+
+.card-body{
+    padding: 1.5rem;
+}
+
+.pro-type{
+    -webkit-text-fill-color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pro-name{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7rem;
+    font-family: 'Montserrat';
+}
+
+.pro-desc{
+    -webkit-text-fill-color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.pro-price{
+    font-size: 2rem;
+    -webkit-text-fill-color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-family: 'Fraunces';
+}
+
+.pro-dis{
+    -webkit-text-fill-color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    border-color: hsl(158, 36%, 37%);
+    width: 14rem;
+    height: 2.5rem;
+}
